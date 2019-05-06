@@ -14,6 +14,7 @@ function App() {
       <Route path="/about" component={About}/>
       <Route component={Error} />
     </Switch>
+
     </div>
     </BrowserRouter>
   );

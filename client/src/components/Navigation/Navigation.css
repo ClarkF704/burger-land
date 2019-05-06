@@ -1,0 +1,16 @@
+html{
+    background: url(img.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+#nav{
+color: white;
+list-style: none;
+text-align: center;
+font-size: 1.5em;
+padding-top: 10px;
+font-family: 'Roboto', sans-serif;
+}
+#nav a{
