@@ -1,12 +1,22 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Landing from './components/Landing/Landing';
-
+import About from './components/About/About';
+import Navigation from './components/Navigation/Navigation';
+import Error from './components/Error/Error';
 function App() {
   return (
-    <div className="App">
-      <Landing/>
+    <BrowserRouter>
+    <div style={{backgroundColor:'yellow'}}>
+    <Navigation/>
+    <Switch>
+      <Route path="/" component={Landing} exact/>
+      <Route path="/about" component={About}/>
+      <Route component={Error} />
+    </Switch>
+
     </div>
+    </BrowserRouter>
   );
 }
 

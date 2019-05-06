@@ -1,0 +1,31 @@
+{
+  "name": "burger-land",
+  "version": "1.0.0",
+  "description": "Burger Land Business Coming Soon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkF704/burger-land.git"
+  },
+  "author": "Clark Farriss & Alfredo Molina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClarkF704/burger-land/issues"
+  },
+  "homepage": "https://github.com/ClarkF704/burger-land#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7"
+  }
+}
