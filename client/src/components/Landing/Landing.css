@@ -1,0 +1,46 @@
+html{
+    background: url(img.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#sociallinks{
+width: 55px;
+height: 35px;
+float:left;
+padding-left: 13px;
+}
+.logo{
+width: 50px;
+}
+.media{
+color: white;
+font-family: 'Roboto', sans-serif;
+padding-left:13px;
+padding-top: 30px;
+}
+#reservation{
+border: none;
+color: white;
+border-radius: 2%;
+font-family: 'Roboto', sans-serif;
+padding: 15px 32px;
+text-decoration: none;
+display: inline-block;
+background-color: #0074D9;
+font-size: 13px;
+float:right;
+}
+.it{
+padding-top: 40px;
+padding-left:100px;
+}
+.mission{
+color: white;
+font-size: 1.5em;
+text-align: center;
+padding-top: 60px;
+padding-left: 10px;
+font-family: 'Roboto', sans-serif;
+}
