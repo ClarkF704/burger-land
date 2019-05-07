@@ -1,0 +1,13 @@
+.imageM{
+    height:10px;
+}
+.logo{
+    text-align:center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .imageM{
+        padding-left:200px;
+    }
+  }
