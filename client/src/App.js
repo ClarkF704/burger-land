@@ -9,7 +9,7 @@ import Error from './components/Error/Error';
 function App() {
   return (
     <BrowserRouter>
-    <div>
+    
     <Navigation/>
     <Switch>
       <Route path="/" component={Landing} exact/>
@@ -18,7 +18,7 @@ function App() {
       <Route component={Error} />
     </Switch>
 
-    </div>
+    
     </BrowserRouter>
   );
 }
